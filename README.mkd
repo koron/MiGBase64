@@ -1,0 +1,12 @@
+Packaged [MiGBase64](http://migbase64.sourceforge.net/).
+
+## Changes from original version.
+
+* Move package to `net.sourceforge.migbase64`
+* Add maven project file.
+* Add very small test.
+* Add Base64URLSafe (RFC4648)
+
+## Appendix
+
+* [Referenced Base64 spec](http://en.wikipedia.org/wiki/Base64)
