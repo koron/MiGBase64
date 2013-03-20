@@ -35,6 +35,10 @@ public final class Base64Test
         assertBase64Encode("AAAA", "000000");
         assertBase64Encode("AAA=", "0000");
         assertBase64Encode("AA==", "00");
+
+        assertBase64Encode("////", "ffffff");
+        assertBase64Encode("//8=", "ffff");
+        assertBase64Encode("/w==", "ff");
     }
 
 }
