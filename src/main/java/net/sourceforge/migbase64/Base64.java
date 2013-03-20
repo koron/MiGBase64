@@ -1,4 +1,4 @@
-package util;
+package net.sourceforge.migbase64;
 
 import java.util.Arrays;
 
