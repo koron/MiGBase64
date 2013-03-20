@@ -7,6 +7,15 @@ Packaged [MiGBase64](http://migbase64.sourceforge.net/).
 * Add very small test.
 * Add Base64URLSafe (RFC4648)
 
+## Example Usage
+
+```java
+import net.sourceforge.migbase64.Base64URLSafe;
+
+//                                      input  lineSep  padding
+String s = Base64URLSafe.encodeToString(bytes, false,   false);
+```
+
 ## Appendix
 
 * [Referenced Base64 spec](http://en.wikipedia.org/wiki/Base64)
